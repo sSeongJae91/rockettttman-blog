@@ -1,5 +1,5 @@
 ---
-title: ASCII와 UTF-8
+title: javascript에서의 URL Encoding
 date: 2025-08-20
 tags:
   - 개발상식
