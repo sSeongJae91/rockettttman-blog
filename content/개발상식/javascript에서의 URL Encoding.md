@@ -1,14 +1,13 @@
 ---
 title: javascript에서의 URL Encoding
-date: 2025-08-07
+date: 2025-08-20
 tags:
   - 개발상식
   - URLEncoding
   - encoding
 draft: false
 ---
-###   
-📘 URL Encoding이란?
+###   📘 URL Encoding이란?
 
 **URL Encoding**은 URL에 포함될 수 없는 문자(공백, 한글, 특수문자 등)를 **퍼센트 인코딩(percent-encoding)** 방식으로 변환하는 것입니다.
 
@@ -61,8 +60,6 @@ const keyword = "성재&hello world";
 const encoded = encodeURIComponent(keyword);
 console.log(encoded);
 // 결과: %EC%84%B1%EC%9E%AC%26hello%20world
-
-  
 
 2. encodeURI()
 
