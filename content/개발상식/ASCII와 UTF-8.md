@@ -1,7 +1,6 @@
-
 ---
-title: "ASCII와 UTF-8"
-date: 2025-08-20
+title: ASCII와 UTF-8
+date: 2025-08-07
 tags:
   - ASCII
   - UTF-8
