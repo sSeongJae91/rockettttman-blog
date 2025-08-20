@@ -18,7 +18,10 @@ export const sharedPageComponents: SharedLayout = {
         // from data-category-id
         categoryId: 'DIC_kwDOPhAfVc4CuYqV',
         // from data-lang
-        lang: 'ko'
+        lang: 'ko',
+        mapping: "pathname",        // URL 경로 기반 (안정적)
+        strict: true,              // 정확한 매칭만 허용 (안전)
+        reactionsEnabled: true,    // 이모지 반응 허용 (상호작용 증대)
       }
     }),
   ],
