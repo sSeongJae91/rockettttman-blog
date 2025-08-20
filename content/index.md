@@ -1,6 +1,6 @@
-# 포스트 내용
-이곳은 제가 작성한 블로그 포스트들을 모아놓은 공간입니다.
-
+---
+title: Rockettttman의 블로그
+---
 ## 최근 포스트
 - [[first-post]]
 - [[second-post]]
