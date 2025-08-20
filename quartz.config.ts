@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://sseongjae91.github.io/rockettttman-blog/index",
+    baseUrl: "https://sseongjae91.github.io/rockettttman-blog",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
