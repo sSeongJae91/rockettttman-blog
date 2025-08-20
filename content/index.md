@@ -1,10 +1,6 @@
----
-title: "포스트 제목"
-date: 2025-08-20
-tags:
-  - tag1
-  - tag2
-draft: false
----
-
 # 포스트 내용
+이곳은 제가 작성한 블로그 포스트들을 모아놓은 공간입니다.
+
+## 최근 포스트
+- [[first-post]]
+- [[second-post]]
