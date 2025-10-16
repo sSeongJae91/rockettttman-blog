@@ -112,5 +112,3 @@ public class Main {
 | 자주 쓰는 형태 | `System.out::println`, `String::toUpperCase`, `ArrayList::new` |
 
 ---
-
-원하면 제가 각 타입별로 **람다식 → 메서드 참조 변환 표** 정리도 깔끔하게 만들어드릴까요?
