@@ -1,5 +1,14 @@
-좋습니다 — 핵심 개념부터 React에서의 구체적 사용법·동작 원리·실전 팁·실패 사례까지 한 번에 정리해드릴게요. 최대한 실무에서 바로 쓰기 좋게 예제도 포함합니다.
-
+---
+title:  Memoization과 react에서의 방식
+date: 2025-10-01
+tags:
+  - Frontend
+  - react
+  - memoization
+  - useCallback
+  - useMemo
+draft: false
+---
 # 메모이제이션(Memoization) — 개념 요약
 
 * **정의**: 함수의 결과를 입력(인자)에 따라 캐시해 두고, 같은 입력이면 계산을 다시 하지 않고 캐시된 결과를 반환하는 기법.

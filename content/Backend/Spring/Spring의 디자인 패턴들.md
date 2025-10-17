@@ -1,3 +1,12 @@
+---
+title: Spring의 디자인 패턴들
+date: 2025-10-16
+tags:
+  - Java
+  - Spring Framework
+  - design pattern
+draft: false
+---
 # Spring Framework에서 사용하는 디자인 패턴들
 (싱글톤, 팩토리, 프록시, 전략(Strategy), 템플릿 메서드 패턴)
 

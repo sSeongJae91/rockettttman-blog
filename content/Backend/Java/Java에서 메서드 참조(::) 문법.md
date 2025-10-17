@@ -1,3 +1,11 @@
+---
+title: Java에서 메서드 참조(::) 문법
+date: 2025-10-16
+tags:
+  - Java
+  - lamda
+draft: false
+---
 Java에서 `::` 는 **메서드 참조(Method Reference)** 라고 부르는 문법입니다.
 이건 **람다(lambda)** 를 더 간결하게 표현하기 위한 문법이며, **Java 8 (2014)** 버전부터 지원됩니다.
 

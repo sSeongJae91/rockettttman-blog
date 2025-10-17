@@ -1,3 +1,13 @@
+---
+title: Autowired와 RequiredArgsConstructor 비교
+date: 2025-10-16
+tags:
+  - Java
+  - Autowired
+  - RequiredArgsConstructor
+draft: false
+---
+
 `@Autowired`와 `@RequiredArgsConstructor`는 **둘 다 의존성 주입(Dependency Injection)** 에 사용되지만,
 **방식과 시점, 코드 스타일**이 조금 달라집니다.
 
