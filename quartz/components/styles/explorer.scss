@@ -147,6 +147,7 @@ button.desktop-explorer {
     margin-left: 6px;
     padding-left: 0.8rem;
     border-left: 1px solid var(--lightgray);
+    font-size: 0.8rem;
   }
 }
 
@@ -155,6 +156,7 @@ button.desktop-explorer {
   display: flex;
   align-items: center;
   user-select: none;
+  font-size: 0.9rem;
 
   & div > a {
     color: var(--secondary);
