@@ -45,6 +45,20 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "최근 포스트",
+        limit: 5,
+        showTags: false,
+        filter: (f) => {
+          // index와 about 페이지는 제외
+          return f.slug !== "index" && f.slug !== "about"
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -70,6 +84,7 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  afterBody: [],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

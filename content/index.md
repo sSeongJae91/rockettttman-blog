@@ -1,6 +1,5 @@
 ---
 title: Rockettttman의 블로그
 ---
-## 최근 포스트
-- [[first-post]]
-- [[second-post]]
+
+반갑습니다! Rockettttman의 블로그에 오신 것을 환영합니다.
