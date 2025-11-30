@@ -152,6 +152,14 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   const searchButton = searchElement.querySelector(".search-button") as HTMLButtonElement
   if (!searchButton) return
 
+  // OS에 따라 단축키 텍스트 업데이트
+  const shortcutElement = searchElement.querySelector(".search-button-shortcut") as HTMLElement
+  if (shortcutElement) {
+    const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0 || 
+                  navigator.userAgent.toUpperCase().indexOf("MAC") >= 0
+    shortcutElement.textContent = isMac ? "⌘ K" : "Ctrl + K"
+  }
+
   const searchBar = searchElement.querySelector(".search-bar") as HTMLInputElement
   if (!searchBar) return
 
