@@ -1,5 +1,5 @@
 ---
-title: Java Exception
+title: Java Stream API
 date: 2025-12-26
 tags:
   - Java

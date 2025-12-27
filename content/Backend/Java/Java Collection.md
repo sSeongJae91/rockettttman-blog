@@ -1,5 +1,5 @@
 ---
-title: Java Exception
+title: Java Collection
 date: 2025-12-26
 tags:
   - Java
