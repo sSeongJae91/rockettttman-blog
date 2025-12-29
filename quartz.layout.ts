@@ -58,6 +58,20 @@ export const defaultContentPageLayout: PageLayout = {
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
+    // giscus 댓글은 모든 콘텐츠 페이지에 표시
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'sSeongJae91/rockettttman-blog',
+        repoId: 'R_kgDOPhAfVQ',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOPhAfVc4CuYqV',
+        lang: 'ko',
+        mapping: "pathname",
+        strict: true,
+        reactionsEnabled: true,
+      }
+    }),
   ],
   left: [
     Component.PageTitle(),
