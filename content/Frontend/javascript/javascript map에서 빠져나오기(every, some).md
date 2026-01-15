@@ -1,3 +1,14 @@
+---
+title: javascript map에서 빠져나오기(every, some)
+date: 2025-11-16
+tags:
+  - Frontend
+  - javascript
+  - every
+  - some
+draft: false
+---
+
 `Array.prototype.some()`과 `Array.prototype.every()`는 **배열 요소를 순회하면서 조건을 검사**하는 데 사용되는 JavaScript의 대표적인 고차 함수입니다.
 둘은 **"조건을 만족하는지 여부"를 판별한다는 공통점**이 있지만, **검사 방식과 결과가 반대**입니다.
 
