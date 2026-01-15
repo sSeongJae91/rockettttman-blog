@@ -1,6 +1,6 @@
 ---
 title: javascript map에서 빠져나오기(every, some)
-date: 2025-11-16
+date: 2026-01-15
 tags:
   - Frontend
   - javascript
