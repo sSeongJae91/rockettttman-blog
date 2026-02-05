@@ -1,5 +1,5 @@
 ---
-title: javascript map에서 빠져나오기(every, some)
+title: javascript에서의 물음표 문법
 date: 2026-01-15
 tags:
   - Frontend
