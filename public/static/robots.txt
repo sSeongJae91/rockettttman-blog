@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sseongjae91.github.io/rockettttman-blog/sitemap.xml    
